@@ -50,7 +50,7 @@ section { padding: 50px 0; }
 .templatemo-section-subheader {
 	color: #D0AF51;
 	display: inline-block;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 .templatemo-gray-bg { background: #EFEFEF; }
 .templatemo-dark-bg {
@@ -299,6 +299,7 @@ section { padding: 50px 0; }
 	background: #fff;
 	border: 1px solid #D0AF51;
 	padding: 50px;
+	padding-top: 10px;
 }
 .gold-border {
 	border: 1px solid #D0AF51;
@@ -536,6 +537,13 @@ hr.gold-hr { border-color: #D0AF51; }
 .templatemo-contact-info {
 	max-width: 400px;
 	padding: 50px 30px;
+}
+
+.text-long{
+    text-align: justify;
+    color: #777777;
+    font-size: 18px;
+    line-height: 1.66em;
 }
 
 /* 8. Media Queries 
