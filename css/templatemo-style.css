@@ -39,7 +39,7 @@ h2 {
 	font-weight: 300;
 	letter-spacing: 3px;
 }
-section { padding: 50px 0; }
+section {padding: 35px 0;}
 .templatemo-section-header-hr {
 	border-top-color: #D0AF51;
 	width: 185px;
@@ -51,6 +51,7 @@ section { padding: 50px 0; }
 	color: #D0AF51;
 	display: inline-block;
 	margin-bottom: 20px;
+	font-style: italic;
 }
 .templatemo-gray-bg { background: #EFEFEF; }
 .templatemo-dark-bg {
@@ -171,6 +172,7 @@ section { padding: 50px 0; }
 	height: 60px;
 	text-align: center;
 	transition: all 0.3s ease;
+	cursor: pointer;
 }
 .templatemo-nav a:hover { text-decoration: none; }
 .templatemo-nav li.active a,
@@ -298,8 +300,9 @@ section { padding: 50px 0; }
 .product-type-message {
 	background: #fff;
 	border: 1px solid #D0AF51;
-	padding: 50px;
+	padding: 25px;
 	padding-top: 10px;
+	height: fit-content;
 }
 .gold-border {
 	border: 1px solid #D0AF51;
@@ -316,8 +319,8 @@ section { padding: 50px 0; }
 
 /* Our Products */
 .img-fashion {
-	max-width: 209px;
-	max-height: 209px;
+	max-width: 150px;
+	max-height: 150px;
 }
 .product-menu {
 	margin-bottom: 80px;
@@ -546,6 +549,15 @@ hr.gold-hr { border-color: #D0AF51; }
     line-height: 1.66em;
 }
 
+.footer-icon{
+    padding-right: 10px;
+	background: none !important;
+}
+.contact-social-icon{
+    font-size: 30px;
+    color: #2c5d70;
+}
+
 /* 8. Media Queries 
 --------------------------------------*/
 @media screen and (max-width: 991px) {
@@ -650,4 +662,24 @@ hr.gold-hr { border-color: #D0AF51; }
 
 @media screen and (max-width: 345px) {
 	.product-menu a { padding: 10px; }	
+}
+
+
+
+
+
+.close {
+  font-size: 3.5rem;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.col-12 img:hover {
+  opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
